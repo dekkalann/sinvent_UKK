@@ -10,7 +10,7 @@ use App\Http\Controllers\CategoryController;
 
 // Route untuk halaman utama
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 // // Route resource untuk kategori
